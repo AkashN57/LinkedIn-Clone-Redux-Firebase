@@ -1,0 +1,25 @@
+.widgets__article{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+.widgets__article:hover{
+    background-color: whitesmoke;
+}
+.widgets__articleLeft{
+    color: #0177b7;
+    margin-right: 5px;
+}
+.widgets__articleLeft > .MuiSvgIcon-root{
+    font-size: 15px;
+}
+.widgets__articleRight {
+    flex: 1;
+}
+.widgets__articleRight > h4{
+    font-size: 14px;
+}
+.widgets__articleRight > p{
+    font-size: 12px;
+    color: grey;
+}
